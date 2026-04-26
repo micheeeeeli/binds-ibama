@@ -9,7 +9,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #4b5534;
+  background: #ffffff; /* FUNDO BRANCO */
   color: #000;
   text-align: center;
 }
@@ -25,13 +25,8 @@ body {
   text-shadow: 3px 3px 0px #000;
 }
 
-.left {
-  left: 20px;
-}
-
-.right {
-  right: 20px;
-}
+.left { left: 20px; }
+.right { right: 20px; }
 
 /* HERO */
 .hero {
@@ -59,10 +54,15 @@ h1 {
   padding: 40px 120px;
 }
 
+/* CAIXAS VERDES (NOVA PARTE) */
 .box {
   width: 300px;
   margin: 20px;
   text-align: left;
+  background: #4b5534; /* VERDE ORIGINAL */
+  color: #fff; /* texto branco dentro */
+  padding: 20px;
+  border-radius: 20px; /* canto arredondado */
 }
 
 .box h2 {
@@ -92,23 +92,19 @@ h1 {
 
 <body>
 
-<!-- LADO ESQUERDO -->
 <div class="side-text left">
 I<br>B<br>A<br>M<br>A
 </div>
 
-<!-- LADO DIREITO -->
 <div class="side-text right">
 P<br>R<br>P
 </div>
 
-<!-- IMAGEM PRINCIPAL -->
 <div class="hero">
   <img src="https://ogimg.infoglobo.com.br/in/25002351-3ba-4dc/FT1086A/84905951_IbamaSeguir-Parques-Nacionais-do-Jamanxim-e-do-Rio-Novo-Para-Grupo-Especializado-de-Fis.jpg">
   <h1>Binds</h1>
 </div>
 
-<!-- CONTEÚDO -->
 <div class="container">
 
   <div class="box">
